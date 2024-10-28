@@ -9,9 +9,7 @@ import {
   FaWifi,
   FaTemperatureHigh,
   FaCoffee,
-  FaIron,
   FaWind,
-  FaCouch,
   FaBath,
 } from "react-icons/fa";
 import { MdIron } from "react-icons/md";
