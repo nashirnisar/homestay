@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-
+import logo from "../../assets/logo.png";
 export const Navbar: React.FC = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -71,22 +71,9 @@ export const Navbar: React.FC = () => {
           </button>
 
           {/* Logo - Always Visible */}
-          <div className="text-indigo-500 pl-4 md:pl-0">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-10 w-10"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"
-              />
-            </svg>
-          </div>
+          <a className="text-indigo-500 pl-4 md:pl-0" href="/">
+            <img src={logo} className="h-20 w-15 md:h-20 md:w-15" />
+          </a>
         </div>
 
         {/* Navigation Links */}
@@ -96,7 +83,7 @@ export const Navbar: React.FC = () => {
           } absolute top-16 left-0 w-full bg-gray-200 md:static md:block md:w-auto z-10 transition-all duration-300`}
         >
           <ul className="flex flex-col md:flex-row items-center font-semibold space-y-2 md:space-y-0 md:space-x-6 py-4 md:py-0 px-4 md:px-0">
-            <li className="md:px-4 md:py-2 text-indigo-500">
+            <li className="md:px-4 md:py-2 ">
               <a
                 href="/"
                 className="hover:text-indigo-400 transition-colors duration-300"
@@ -106,7 +93,7 @@ export const Navbar: React.FC = () => {
               </a>
             </li>
             <li
-              className="md:px-4 md:py-2 relative"
+              className="md:px-4 md:py-2 relative t"
               onMouseEnter={() => setRoomsOpen(true)}
               onMouseLeave={() => setRoomsOpen(false)}
             >

@@ -3,11 +3,13 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { MainLayout } from "./layout";
 import { HomePage } from "./pages/HomePage";
 import { DeluxeRoom, FamilySuite, StandardRoom } from "./pages/Rooms";
+import { ScrollToTop } from "./utils";
 
 function App() {
   return (
     <div>
       <Router>
+        <ScrollToTop />
         <MainLayout>
           <Routes>
             <Route path="/" element={<HomePage />} />
