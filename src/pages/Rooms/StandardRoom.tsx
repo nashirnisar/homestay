@@ -25,9 +25,9 @@ export const StandardRoom: React.FC = () => {
   };
 
   const images = [
-    "https://www.eliaermouhotel.com/uploads/photos/D1024/2019/02/standardroom_1878.jpg",
-    "https://www.eliaermouhotel.com/uploads/photos/D1024/2019/02/standardroom_1456.jpg",
-    "https://www.eliaermouhotel.com/uploads/photos/D1024/2019/02/standardroom_7793.jpg",
+    "https://eliaermouhotel.com/wp-content/uploads/2023/08/classic-1-1536x1024.jpg",
+    "https://eliaermouhotel.com/wp-content/uploads/2023/08/classic-room-small-300x200.jpg",
+    "https://eliaermouhotel.com/wp-content/uploads/2023/08/classic-room-3.jpg",
   ];
 
   // Slider settings for react-slick

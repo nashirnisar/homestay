@@ -11,7 +11,8 @@ export const ServicesSection: React.FC = () => {
     },
     {
       id: 2,
-      image: "https://mmcoe.edu.in/images/Mess%20&%20cantten/IMG_6050_Edit.jpg",
+      image:
+        "https://riddhidisplay.com/wp-content/webp-express/webp-images/uploads/2025/01/interior-restaurant_1048944-6789-1-1-1.jpg.webp",
       title: "Kitchen / Canteen",
       description:
         "A fully equipped kitchen and canteen serving delicious meals.",

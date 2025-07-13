@@ -18,7 +18,7 @@ export const EnquiryPortal: React.FC<EnquiryPortalProps> = ({ onClose }) => {
         </p>
         <p className="mb-4">
           Or reach us via email at:
-          <span className="font-semibold"> dawood@rmail.com</span>
+          <span className="font-semibold"> dawoodali123@gmail.com</span>
         </p>
 
         <Button size="medium" color="primary" onClick={onClose}>
