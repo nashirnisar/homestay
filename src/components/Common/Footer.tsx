@@ -91,8 +91,8 @@ export const Footer: React.FC = () => {
           <p>
             The City Stay Hotel, NH 1, Ram Munshi Bagh, Sonwar Bagh, Srinagar
           </p>
-          <p>(+) 357 24 621900</p>
-          <p>dawood@email.com</p>
+          <p>(+) 9906172993</p>
+          <p>dawoodali123@gmail.com</p>
           <p>Mon - Sun, 9:00 AM - 9:00 PM</p>
         </div>
       </div>
@@ -100,7 +100,7 @@ export const Footer: React.FC = () => {
       {/* Footer Bottom Section */}
       <div className="border-t border-gray-300 mt-6 pt-4 text-center text-gray-600">
         <p className="text-xs">
-          All Rights Reserved © {new Date().getFullYear()} TheCityStayHotel.com
+          All Rights Reserved © {new Date().getFullYear()} TheCityStayHotel
         </p>
         <div className="flex justify-center space-x-4 mt-4">
           <a
