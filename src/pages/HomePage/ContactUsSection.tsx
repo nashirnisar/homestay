@@ -66,7 +66,7 @@ export const ContactUsSection: React.FC = () => {
               <FaEnvelope className="text-xl text-gray-600 mr-4 mt-1" />
               <div>
                 <p className="font-bold">General Enquiries</p>
-                <p>dawood@email.com</p>
+                <p>dawoodali123@gmail.com</p>
               </div>
             </div>
 
@@ -74,7 +74,7 @@ export const ContactUsSection: React.FC = () => {
               <FaPhoneAlt className="text-xl text-gray-600 mr-4 mt-1" />
               <div>
                 <p className="font-bold">Call Us</p>
-                <p>+1 (234) 567-8901</p>
+                <p>+91 9906172993</p>
               </div>
             </div>
 
